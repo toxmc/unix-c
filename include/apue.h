@@ -111,9 +111,9 @@ pid_t	lock_test(int, int, off_t, int, off_t);		/* {Prog locktest} */
 
 void	err_msg(const char *, ...);			/* {App misc_source} */
 void	err_dump(const char *, ...) __attribute__((noreturn));
-void	err_quit(const char *, ...) __attribute__((noreturn));	//暂时有错
+void	err_quit(const char *, ...) __attribute__((noreturn));
 void	err_cont(int, const char *, ...);
-void	err_exit(int, const char *, ...) __attribute__((noreturn)); //暂时有错
+void	err_exit(int, const char *, ...) __attribute__((noreturn));
 void	err_ret(const char *, ...);
 void	err_sys(const char *, ...) __attribute__((noreturn));
 
